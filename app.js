@@ -1,7 +1,8 @@
+const dotenv = require('dotenv')
 const Telegraf = require('telegraf')
 const puppeteer = require('puppeteer');
 const Extra = require('telegraf/extra')
-const bot = new Telegraf('1188741836:AAGTr7kB7MBJ_TBMCzE3qaSxbkqyoVqUqS8')
+const bot = new Telegraf('procces.env.token')
 const delay = (time) => new Promise((resolve) => setInterval(() => resolve(), time))
 var http = require('http'),
     Stream = require('stream').Transform,
